@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Kasutaja tervitusskript
+#
+echo -n "Tere,"  #Tere väljastamine ilma reavahetuseta
+echo -n `whoami | cut -c1 | tr [a-z] [A-Z] `  #1. nimt2h lõikamine ja capsing
+echo -n `whoami | cut -c2-`  #peale F kõikide tähtede väljastamine
+echo "!"  # ! märgi väljastamine
